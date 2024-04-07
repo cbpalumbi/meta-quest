@@ -2160,8 +2160,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aff1aa6d0bb8ffc4eb8c89425a00045a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpawnObject: {fileID: 6504675523456247385, guid: dd838da3c59bd0d4c9e0d312a166ffbc, type: 3}
-  SpawnAmount: 3
+  SpawnObjects:
+  - {fileID: 6504675523456247385, guid: dd838da3c59bd0d4c9e0d312a166ffbc, type: 3}
+  - {fileID: 4868012074929983587, guid: 2e42093cdc0f17145b3ad86f94dabaac, type: 3}
+  SpawnAmounts: 3200000014000000
   MaxIterations: 1000
   SpawnLocations: 3
   Labels: 8
